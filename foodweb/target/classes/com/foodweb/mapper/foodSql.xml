@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!--配置-->
+<mapper namespace="com.foodweb.mapper.FoodsMapper">
+
+    <select   id="searchByName" parameterType="java.lang.String" resultType="FoodsAll">
+
+        select * from foods where foodname like #{nameLike}
+</select>
+<!--    <select id="findAllBooks"  resultType="Books">-->
+<!--        select *from books-->
+<!--    </select>-->
+    <select id="searchByclass"  resultType="FoodsAll" fetchSize="1000">
+        select id,foodname,foodid,foodpic,bigclass,smallclass,ingredients from foods where 1=1
+        <if test=" nameKey!=null and nameKey !='' ">
+            and foodname
+            like #{nameKey}
+        </if>
+
+         <if test=" smallclass!=null and  smallclass !='' ">
+             and smallclass=#{smallclass}
+         </if>
+
+    </select>
+<!--  根据foodId   查询完整的foodBean-->
+    <select id="searchByFoodId" resultType="FoodsAll" parameterType="java.lang.String">
+    SELECT * FROM foods where foodid=#{foodId}
+
+    </select>
+
+    <!--  根据Id   查询 部分foodBean-->
+    <select id="searchPartBeanById" resultType="FoodsAll" parameterType="java.lang.Integer">
+     select id,foodname,foodid,foodpic,bigclass,smallclass,ingredients from foods
+         where id=#{id}
+
+    </select>
+
+
+<!--    计算总量-->
+    <select id="seachCountOfFoods" resultType="java.lang.Integer">
+
+        select count(id) from foods
+    </select>
+
+
+
+<!--    根据foodId 查询出id foodname,foodid,foodPic,bigclass,smallclass,ingredients 字段-->
+    <select id="searchPartBeanByFoodId" resultType="com.foodweb.pojo.FoodsAll">
+        select id,foodname,foodid,foodpic,bigclass,smallclass,ingredients from foods
+         where foodid=#{foodId}
+
+    </select>
+
+
+
+<!--    得到用户历史记录id 用于推荐-->
+    <select id="getUserReoords" resultType="UserRecord">
+
+        select * from user_records where user_id =#{user_id} and status='0'
+
+    </select>
+
+    <!--    得到用户历史记录id 用于查询-->
+    <select id="getUserReoords02" resultType="UserRecord">
+
+        select * from user_records where user_id =#{user_id} order by derive_time DESC
+
+    </select>
+
+
+<!--    更新用户历史记录-->
+
+    <update id="updateUserRecordStatus" >
+
+        update user_records set status='1' where id=#{id}
+
+    </update>
+
+
+<!--    添加用户历史记录-->
+    <insert id="addUserRecords" parameterType="UserRecord">
+        insert into user_records (food_id,user_id,food_bigclass,food_smallclass,derive_time,status)
+          select #{food_id},#{user_id},#{food_bigclass},#{food_smallclass},#{derive_time},#{status} from DUAL
+        where not exists (select * from user_records where user_id=#{user_id} and food_id=#{food_id})
+    </insert>
+
+
+<!--    查询所有 fid   ingredients-->
+    <select id="searchAllfidIngredients" resultType="FoodsAll">
+        select foodid,ingredients,smallclass,bigclass from  foods;
+
+    </select>
+
+<!--    插入数据到 不重复插入 推荐表-->
+    <insert id="insertIntoRecommend" parameterType="com.foodweb.pojo.Recommend" >
+        insert  into food_recommend (user_id,food_id,derive_time,recommend_value)
+        select #{user_id},#{food_id},#{derive_time},#{recommend_value} from DUAL
+        where not exists (select * from food_recommend where user_id=#{user_id} and food_id=#{food_id})
+
+    </insert>
+<!--根据uuid查询recommend-->
+    <select id="findRecommendByUUid" resultType="com.foodweb.pojo.Recommend">
+        select * from food_recommend where user_id=#{user_id}
+    </select>
+
+<!--    根据用户名查寻 用户信息-->
+    <select id="findUserByUserName" resultType="com.foodweb.pojo.User">
+        select * from user where user_name=#{user_name}
+    </select>
+    
+    
+<!--    插入用户名等信息-->
+    <insert id="insertIntoUser" >
+        insert into USER (user_id,user_name,user_password)
+         values (#{user_id},#{user_name},#{user_password});
+    </insert>
+    
+<!--查询所有分类信息-->
+    <select id="findAllFoodClassInfo" resultType="com.foodweb.pojo.FoodClass">
+        select * from food_class;
+    </select>
+
+<!--  查复回复评论星系  /**-->
+    <insert id="inserIntoReply" parameterType="com.foodweb.javabean.review.ReplyDetailBean"
+        useGeneratedKeys="true" keyProperty="id"    >
+        insert into replydetailbean (nickName,userLogo,commentId,content,status,createDate )
+
+        values (#{nickName},#{userLogo},#{commentId},
+        #{content},#{status},#{createDate})
+
+    </insert>
+<!--    通过commentId查找所有 replyBeans-->
+    <select id="searchReplyByCommentId" parameterType="java.lang.Integer" resultType="com.foodweb.javabean.review.ReplyDetailBean">
+        select * from replydetailbean where commentId=#{commentId}
+    </select>
+
+
+<!--    插入 一条评论信息-->
+<!--    private int id;//索引-->
+<!--    private String nickName;//名字-->
+<!--    private String userLogo;//头像地址-->
+<!--    private String content;//评论内容-->
+<!--    private String imgId;//图片Id-->
+<!--    private String foodid;//菜谱唯一id-->
+<!--    private int replyTotal;//回复评论的总数-->
+<!--    private Date createDate;//评论创建日期-->
+<!--    private int replyId;//评论的ID 注意此replyID为评论索引 因为-->
+    <insert id="insertIntoCommentBean" parameterType="com.foodweb.javabean.review.CommentDetailBean"
+            keyProperty="id" useGeneratedKeys="true">
+        insert into comment_detaiil (nickName,userLogo,content,imgId,foodid,replyTotal,createDate,replyId)
+        values(#{nickName},#{userLogo},#{content},#{imgId},#{foodid},#{replyTotal},#{createDate},#{replyId})
+
+    </insert>
+
+<!-- /*** 根据 foodId取出评论*/-->
+    <select id="searchCommentBeanByFoodId" resultType="com.foodweb.javabean.review.CommentDetailBean"
+            >
+        select * from comment_detaiil where foodid=#{foodid}
+    </select>
+
+<!--    更新评论 replyId-->
+    <update id="updateReplyId" parameterType="java.lang.Integer">
+        update comment_detaiil set replyId=#{id} where  id=#{id}
+    </update>
+
+<!--    添加收藏-->
+    <insert id="insertIntoFavorite" parameterType="com.foodweb.pojo.Favarites">
+        insert into user_favorites (user_id,food_id,derive_time,favorite)
+        values (#{user_id},#{food_id},#{derive_time},#{favorite})
+
+    </insert>
+
+<!--    收藏查询-->
+    <select id="searchFavoriteByUerId" resultType="com.foodweb.pojo.Favarites">
+        select * from user_favorites where user_id=#{user_id}
+    </select>
+<!--    收藏统计数量-->
+    <select id="countFavoriteByUerId" resultType="java.lang.Integer">
+        select count(*)from user_favorites where user_id=#{user_id} and favorite='1'
+    </select>
+<!--    查询收藏单体-->
+
+    <select id="findCollectionStatus" resultType="com.foodweb.pojo.Favarites">
+
+        select *from user_favorites where user_id=#{user_id} and food_id=#{food_id} and favorite='1'
+    </select>
+
+
+<!--    修改收藏-->
+    <update id="changeFavoriteByUserId" parameterType="com.foodweb.pojo.Favarites">
+
+    update  user_favorites set favorite=#{favorite} where user_id=#{user_id} and food_id=#{food_id}
+    </update>
+
+</mapper>

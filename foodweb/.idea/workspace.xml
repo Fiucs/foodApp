@@ -1,0 +1,1418 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8e222234-ff97-4431-b153-8da0151fd34f" name="Default Changelist" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/foodredis/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="meishidb@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/foodweb/mapper/FoodsMapper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="194">
+              <caret line="105" selection-start-line="105" selection-end-line="105" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/com/foodweb/mapper/foodSql.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3477">
+              <caret line="183" selection-start-line="183" selection-end-line="183" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/foodweb/pojo/Favarites.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="171">
+              <caret line="10" column="28" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#324#325#0" expanded="true" />
+                <element signature="e#349#350#0" expanded="true" />
+                <element signature="e#382#383#0" expanded="true" />
+                <element signature="e#410#411#0" expanded="true" />
+                <element signature="e#444#445#0" expanded="true" />
+                <element signature="e#474#475#0" expanded="true" />
+                <element signature="e#520#521#0" expanded="true" />
+                <element signature="e#558#559#0" expanded="true" />
+                <element signature="e#592#593#0" expanded="true" />
+                <element signature="e#622#623#0" expanded="true" />
+                <element signature="e#668#669#0" expanded="true" />
+                <element signature="e#706#707#0" expanded="true" />
+                <element signature="e#742#743#0" expanded="true" />
+                <element signature="e#776#777#0" expanded="true" />
+                <element signature="e#828#829#0" expanded="true" />
+                <element signature="e#874#875#0" expanded="true" />
+                <element signature="e#909#910#0" expanded="true" />
+                <element signature="e#940#941#0" expanded="true" />
+                <element signature="e#988#989#0" expanded="true" />
+                <element signature="e#1028#1029#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/foodweb/service/imp/NormalSearchImp.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3002">
+              <caret line="248" selection-start-line="248" selection-end-line="248" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#searchByFoodId#0;class#NormalSearchImp#0" />
+                <element signature="method#searchByclass01#0;class#NormalSearchImp#0" />
+                <element signature="docComment;method#searchAllfidIngredients#0;class#NormalSearchImp#0" />
+                <element signature="method#searchAllfidIngredients#0;class#NormalSearchImp#0" />
+                <element signature="docComment;method#insertIntoRecommend#0;class#NormalSearchImp#0" />
+                <element signature="method#insertIntoRecommend#0;class#NormalSearchImp#0" />
+                <element signature="docComment;method#updateUserRecordStatus#0;class#NormalSearchImp#0" />
+                <element signature="method#updateUserRecordStatus#0;class#NormalSearchImp#0" />
+                <element signature="method#insertIntoUserRecords#0;class#NormalSearchImp#0" />
+                <element signature="docComment;method#register#0;class#NormalSearchImp#0" />
+                <element signature="method#register#0;class#NormalSearchImp#0" />
+                <element signature="docComment;method#login#0;class#NormalSearchImp#0" />
+                <element signature="method#findAllFoodClassInfo#0;class#NormalSearchImp#0" />
+                <element signature="method#searchFromRecommendTb#0;class#NormalSearchImp#0" />
+                <element signature="method#getRandomResult#0;class#NormalSearchImp#0" />
+                <element signature="method#getCommentsByFoodId#0;class#NormalSearchImp#0" />
+                <element signature="method#transferEmjoyCode#0;class#NormalSearchImp#0" />
+                <element signature="method#searchFavorites#0;class#NormalSearchImp#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/foodweb/javabean/Rows.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="25" column="42" selection-start-line="25" selection-start-column="42" selection-end-line="25" selection-end-column="42" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#760#761#0" expanded="true" />
+                <element signature="e#792#793#0" expanded="true" />
+                <element signature="e#840#841#0" expanded="true" />
+                <element signature="e#882#883#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://F:/java/jdk1.8/jre/lib/rt.jar!/sun/reflect/NativeMethodAccessorImpl.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="361">
+              <caret line="26" selection-start-line="26" selection-end-line="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/5.0.5.RELEASE/spring-aop-5.0.5.RELEASE.jar!/org/springframework/aop/support/AopUtils.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2945">
+              <caret line="189" selection-start-line="189" selection-end-line="189" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/foodweb/controller/FoodController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1862">
+              <caret line="177" column="19" selection-start-line="177" selection-start-column="19" selection-end-line="177" selection-end-column="19" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#searchByname#0;class#FoodController#0" />
+                <element signature="docComment;method#searchBySmallClass#0;class#FoodController#0" />
+                <element signature="method#getFoodClassMenu#0;class#FoodController#0" />
+                <element signature="method#searchByNone#0;class#FoodController#0" />
+                <element signature="method#getOneFoodBean#0;class#FoodController#0" />
+                <element signature="docComment;method#getRecommendList#0;class#FoodController#0" />
+                <element signature="method#getRecommendList#0;class#FoodController#0" />
+                <element signature="method#getCommentsByFoodId#0;class#FoodController#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/foodweb/controller/LoginController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1197">
+              <caret line="76" column="7" selection-start-line="76" selection-start-column="7" selection-end-line="76" selection-end-column="7" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/foodweb/service/NormalSearch.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2109">
+              <caret line="120" column="61" selection-start-line="120" selection-start-column="61" selection-end-line="120" selection-end-column="61" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="FxmlFile" />
+        <option value="Interface" />
+        <option value="spring-beans.schema" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>冰镇大冷面</find>
+      <find>计算相似度：</find>
+      <find>157525036227</find>
+      <find>相似度大于0的计算结果</find>
+      <find>线程00000000000000000000000XX</find>
+      <find>insertIntoRecommend</find>
+      <find>Foodid</find>
+      <find>log</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>foodid</replace>
+    </replaceStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/resources/mapper/foodMapper.fxml" />
+        <option value="$PROJECT_DIR$/src/main/resources/configuration/mybatis.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/mapper/foodMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/mapper/foodSql.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/foodweb/service/Search.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/foodweb/service/imp/SearchImp.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/jdbc.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/com/foodweb/controller/controller.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/foodweb/pojo/UserRecod.java" />
+        <option value="$PROJECT_DIR$/foodredis/src/main/resources/properties/redis-config.properties" />
+        <option value="$PROJECT_DIR$/src/main/resources/myapplication.xml" />
+        <option value="$PROJECT_DIR$/foodredis/src/main/java/SpirngRedisDdemo1.java" />
+        <option value="$PROJECT_DIR$/foodredis/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/utils/SpirngRedisDdemo1.java" />
+        <option value="$PROJECT_DIR$/target/classes/properties/redis-config.properties" />
+        <option value="$PROJECT_DIR$/src/main/resources/properties/redis-config.properties" />
+        <option value="$PROJECT_DIR$/src/main/resources/applicationContext-redis.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/utils/CalculateSimValues.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/foodweb/pojo/Recommend.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/spring_serivce.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/foodweb/task/RecommendData.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/foodweb/task/RecommendRunnable.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/foodweb/pojo/User.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/foodweb/pojo/MsgInfo.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/spring_mvc.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/onlineUser.txt" />
+        <option value="$PROJECT_DIR$/src/main/java/com/foodweb/pojo/FoodSimInfo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/foodweb/pojo/FoodClass.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/utils/MethodStringUtils.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/utils/FormatBean.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/foodweb/pojo/UserRecord.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/foodweb/task/RecommendTask.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/foodweb/listener/OnlineUserListener.java" />
+        <option value="$PROJECT_DIR$/target/classes/onlineUser.txt" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/foodweb/javabean/review/CommentDetailBean.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/foodweb/javabean/review/ReplyDetailBean.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/foodweb/javabean/review/CommentBean.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/spring_mapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/mybatis.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/foodweb/pojo/Favarites.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/foodweb/javabean/Rows.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/foodweb/pojo/FoodsAll.java" />
+        <option value="$PROJECT_DIR$/src/test/java/CalulateSimValue.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/com/foodweb/mapper/foodSql.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/foodweb/service/NormalSearch.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/foodweb/mapper/FoodsMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/foodweb/controller/FoodController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/foodweb/service/imp/NormalSearchImp.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/foodweb/controller/LoginController.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$PROJECT_DIR$/../maven/apache-maven-3.5.2" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="foodweb" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="foodweb" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="PhpDebugGeneral" listening_started="true" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="480" />
+    <option name="y" value="71" />
+    <option name="width" value="1826" />
+    <option name="height" value="1005" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="foodapp-web" type="b2602c69:ProjectViewProjectNode" />
+              <item name="foodweb" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="foodapp-web" type="b2602c69:ProjectViewProjectNode" />
+              <item name="foodweb" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="foodapp-web" type="b2602c69:ProjectViewProjectNode" />
+              <item name="foodweb" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="foodapp-web" type="b2602c69:ProjectViewProjectNode" />
+              <item name="foodweb" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="foodapp-web" type="b2602c69:ProjectViewProjectNode" />
+              <item name="foodweb" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="foodapp-web" type="b2602c69:ProjectViewProjectNode" />
+              <item name="foodweb" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="foodweb" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="foodapp-web" type="b2602c69:ProjectViewProjectNode" />
+              <item name="foodweb" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="foodweb" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="foodapp-web" type="b2602c69:ProjectViewProjectNode" />
+              <item name="foodweb" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="foodweb" type="462c0819:PsiDirectoryNode" />
+              <item name="javabean" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="foodapp-web" type="b2602c69:ProjectViewProjectNode" />
+              <item name="foodweb" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="foodweb" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="foodapp-web" type="b2602c69:ProjectViewProjectNode" />
+              <item name="foodweb" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="foodweb" type="462c0819:PsiDirectoryNode" />
+              <item name="pojo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="foodapp-web" type="b2602c69:ProjectViewProjectNode" />
+              <item name="foodweb" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="foodweb" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="foodapp-web" type="b2602c69:ProjectViewProjectNode" />
+              <item name="foodweb" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="foodweb" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="imp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="foodapp-web" type="b2602c69:ProjectViewProjectNode" />
+              <item name="foodweb" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="foodapp-web" type="b2602c69:ProjectViewProjectNode" />
+              <item name="foodweb" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="foodapp-web" type="b2602c69:ProjectViewProjectNode" />
+              <item name="foodweb" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="foodweb" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="foodapp-web" type="b2602c69:ProjectViewProjectNode" />
+              <item name="foodweb" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="foodweb" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="foodapp-web" type="b2602c69:ProjectViewProjectNode" />
+              <item name="foodweb" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="properties" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="foodapp-web" type="b2602c69:ProjectViewProjectNode" />
+              <item name="foodweb" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="foodapp-web" type="b2602c69:ProjectViewProjectNode" />
+              <item name="foodweb" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="foodapp-web" type="b2602c69:ProjectViewProjectNode" />
+              <item name="foodweb" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/foodweb/javabean/review" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.37488544" />
+    <property name="settings.editor.selected.configurable" value="Console" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="G:\idea2019\foodweb\src\main\resources\properties" />
+      <recent name="G:\idea2019\foodweb\src\main\resources" />
+      <recent name="G:\idea2019\foodweb\src\main\resources\com\foodweb" />
+      <recent name="G:\idea2019\foodweb\src\main\resources\mapper" />
+      <recent name="G:\idea2019\foodweb\src\main" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.utils" />
+      <recent name="" />
+      <recent name="com.foodweb.pojo" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\idea2019\foodweb\src\main\java\com\foodweb\javabean\review" />
+      <recent name="G:\idea2019\foodweb\foodredis\src\main\resources" />
+      <recent name="G:\idea2019\foodweb\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Maven.foodweb [tomcat7:run]-Dfile.encoding=GB2312">
+    <configuration name="CalulateSimValue.ReviewUpdateTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="foodweb" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CalulateSimValue" />
+      <option name="METHOD_NAME" value="ReviewUpdateTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CalulateSimValue.collectFoods" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="foodweb" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CalulateSimValue" />
+      <option name="METHOD_NAME" value="collectFoods" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CalulateSimValue.testReview" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="foodweb" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CalulateSimValue" />
+      <option name="METHOD_NAME" value="testReview" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CalulateSimValue.testReview01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="foodweb" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CalulateSimValue" />
+      <option name="METHOD_NAME" value="testReview01" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CalulateSimValue.testReview02" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="foodweb" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CalulateSimValue" />
+      <option name="METHOD_NAME" value="testReview02" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <module name="foodapp-web" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+      <module name="foodapp-web" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="foodweb [tomcat7:run]-Dfile.encoding=GB2312" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings">
+          <MavenRunnerSettings>
+            <option name="delegateBuildToMaven" value="false" />
+            <option name="environmentProperties">
+              <map />
+            </option>
+            <option name="jreName" value="#USE_PROJECT_JDK" />
+            <option name="mavenProperties">
+              <map />
+            </option>
+            <option name="passParentEnv" value="true" />
+            <option name="runMavenInBackground" value="true" />
+            <option name="skipTests" value="false" />
+            <option name="vmOptions" value="-Dfile.encoding=GB2312" />
+          </MavenRunnerSettings>
+        </option>
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="tomcat7:run" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.CalulateSimValue.testReview" />
+      <item itemvalue="JUnit.CalulateSimValue.testReview01" />
+      <item itemvalue="JUnit.CalulateSimValue.testReview02" />
+      <item itemvalue="JUnit.CalulateSimValue.ReviewUpdateTest" />
+      <item itemvalue="JUnit.CalulateSimValue.collectFoods" />
+      <item itemvalue="Maven.foodweb [tomcat7:run]-Dfile.encoding=GB2312" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.CalulateSimValue.collectFoods" />
+        <item itemvalue="JUnit.CalulateSimValue.testReview" />
+        <item itemvalue="JUnit.CalulateSimValue.ReviewUpdateTest" />
+        <item itemvalue="JUnit.CalulateSimValue.testReview02" />
+        <item itemvalue="JUnit.CalulateSimValue.testReview01" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8e222234-ff97-4431-b153-8da0151fd34f" name="Default Changelist" comment="" />
+      <created>1577188261397</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1577188261397</updated>
+      <workItem from="1577188264165" duration="6994000" />
+      <workItem from="1577195862761" duration="8988000" />
+      <workItem from="1577234678952" duration="23395000" />
+      <workItem from="1577320834252" duration="2645000" />
+      <workItem from="1577332911755" duration="6102000" />
+      <workItem from="1577359537833" duration="5507000" />
+      <workItem from="1577408295218" duration="85000" />
+      <workItem from="1577704822738" duration="647000" />
+      <workItem from="1577705772427" duration="7699000" />
+      <workItem from="1577760967069" duration="54000" />
+      <workItem from="1577775539786" duration="1243000" />
+      <workItem from="1577926728626" duration="57000" />
+      <workItem from="1577963660017" duration="14635000" />
+      <workItem from="1578012792712" duration="663000" />
+      <workItem from="1578051172384" duration="5006000" />
+      <workItem from="1578100859798" duration="309000" />
+      <workItem from="1578310088449" duration="1205000" />
+      <workItem from="1578365291476" duration="2258000" />
+      <workItem from="1578411491740" duration="217000" />
+      <workItem from="1578447542586" duration="275000" />
+      <workItem from="1578486412592" duration="2595000" />
+      <workItem from="1578531221601" duration="69000" />
+      <workItem from="1578572884830" duration="4153000" />
+      <workItem from="1578617571995" duration="3459000" />
+      <workItem from="1579660953964" duration="3383000" />
+      <workItem from="1579757545414" duration="8436000" />
+      <workItem from="1579793468099" duration="1342000" />
+      <workItem from="1579794889757" duration="4472000" />
+      <workItem from="1579854950792" duration="2914000" />
+      <workItem from="1580108807938" duration="1084000" />
+      <workItem from="1580182462599" duration="10892000" />
+      <workItem from="1580209882013" duration="21408000" />
+      <workItem from="1580235733554" duration="196000" />
+      <workItem from="1580277509334" duration="21634000" />
+      <workItem from="1580363966572" duration="25992000" />
+      <workItem from="1580407685740" duration="689000" />
+      <workItem from="1580462819130" duration="5709000" />
+      <workItem from="1580526528689" duration="685000" />
+      <workItem from="1580563707193" duration="1897000" />
+      <workItem from="1580612806450" duration="387000" />
+      <workItem from="1580618674174" duration="1154000" />
+      <workItem from="1580699058742" duration="590000" />
+      <workItem from="1580736860713" duration="3984000" />
+      <workItem from="1580785299687" duration="8344000" />
+      <workItem from="1580865795388" duration="2583000" />
+      <workItem from="1580886077190" duration="11304000" />
+      <workItem from="1580952093462" duration="3141000" />
+      <workItem from="1580990014377" duration="5951000" />
+      <workItem from="1581041866663" duration="598000" />
+      <workItem from="1581082622091" duration="2277000" />
+      <workItem from="1581144768890" duration="2715000" />
+      <workItem from="1581228813328" duration="33000" />
+      <workItem from="1581242596768" duration="669000" />
+      <workItem from="1581295885999" duration="409000" />
+      <workItem from="1581306235954" duration="5791000" />
+      <workItem from="1581319462330" duration="1448000" />
+      <workItem from="1581320934130" duration="1802000" />
+      <workItem from="1581323238392" duration="2408000" />
+      <workItem from="1581391363147" duration="3295000" />
+      <workItem from="1581397465950" duration="467000" />
+      <workItem from="1581401992645" duration="601000" />
+      <workItem from="1581404641780" duration="9350000" />
+      <workItem from="1581471013665" duration="569000" />
+      <workItem from="1581507226551" duration="5490000" />
+      <workItem from="1581559493008" duration="725000" />
+      <workItem from="1581594729681" duration="3736000" />
+      <workItem from="1581642899115" duration="719000" />
+      <workItem from="1581686316568" duration="2083000" />
+      <workItem from="1581749362281" duration="1803000" />
+      <workItem from="1581767684202" duration="2244000" />
+      <workItem from="1581833398197" duration="42000" />
+      <workItem from="1581866708958" duration="837000" />
+      <workItem from="1581911011139" duration="2323000" />
+      <workItem from="1581933033296" duration="317000" />
+      <workItem from="1581939984614" duration="12485000" />
+      <workItem from="1582026723531" duration="127000" />
+      <workItem from="1582035088007" duration="3644000" />
+      <workItem from="1582074005552" duration="66000" />
+      <workItem from="1582084440839" duration="9535000" />
+      <workItem from="1582117772277" duration="7838000" />
+      <workItem from="1582162731130" duration="595000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="CalulateSimValue_collectFoods - 2020.02.17 at 21h 33m 35s.xml">
+      <configuration name="CalulateSimValue.collectFoods" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CalulateSimValue_collectFoods - 2020.02.17 at 21h 34m 08s.xml">
+      <configuration name="CalulateSimValue.collectFoods" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CalulateSimValue_collectFoods - 2020.02.17 at 21h 37m 34s.xml">
+      <configuration name="CalulateSimValue.collectFoods" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CalulateSimValue_collectFoods - 2020.02.17 at 21h 41m 42s.xml">
+      <configuration name="CalulateSimValue.collectFoods" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CalulateSimValue_collectFoods - 2020.02.17 at 21h 44m 15s.xml">
+      <configuration name="CalulateSimValue.collectFoods" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CalulateSimValue_collectFoods - 2020.02.17 at 21h 45m 52s.xml">
+      <configuration name="CalulateSimValue.collectFoods" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CalulateSimValue_collectFoods - 2020.02.17 at 21h 47m 52s.xml">
+      <configuration name="CalulateSimValue.collectFoods" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CalulateSimValue_collectFoods - 2020.02.17 at 21h 48m 12s.xml">
+      <configuration name="CalulateSimValue.collectFoods" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CalulateSimValue_collectFoods - 2020.02.17 at 21h 48m 35s.xml">
+      <configuration name="CalulateSimValue.collectFoods" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CalulateSimValue_collectFoods - 2020.02.17 at 21h 49m 40s.xml">
+      <configuration name="CalulateSimValue.collectFoods" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="333472000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="480" y="71" width="1826" height="1005" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17270668" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Web" order="2" side_tool="true" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32972324" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.60461956" weight="0.17316514" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.40391254" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32934782" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Spring" order="10" />
+      <window_info anchor="bottom" id="Terminal" order="11" />
+      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.39538044" side_tool="true" weight="0.36032864" />
+      <window_info anchor="bottom" id="Java Enterprise" order="13" weight="0.32991013" />
+      <window_info anchor="bottom" id="Messages" order="14" weight="0.2795699" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Database" order="4" weight="0.3781321" />
+      <window_info anchor="right" id="Maven" order="5" weight="0.108742006" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/foodweb/service/imp/NormalSearchImp.java</url>
+          <line>503</line>
+          <properties />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/foodweb/service/imp/NormalSearchImp.java</url>
+          <line>497</line>
+          <properties />
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/target/classes/com/foodweb/mapper/FoodsMapper.class" />
+    <entry file="file://$PROJECT_DIR$/target/classes/com/foodweb/mapper/foodSql.xml" />
+    <entry file="jar://F:/java/jdk1.8/src.zip!/java/lang/Thread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="137">
+          <caret line="747" column="19" selection-start-line="747" selection-start-column="19" selection-end-line="747" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/9a222cda-5240-4481-8925-e2a4a33dfe28/console.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/252cfc32-8050-4229-8823-5dfae05f4609/console.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/spring_serivce.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/spring_mvc.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="39" column="11" selection-start-line="39" selection-start-column="11" selection-end-line="39" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/foodweb/task/RecommendData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="346">
+          <caret line="39" column="19" selection-start-line="39" selection-start-column="19" selection-end-line="39" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/foodweb/pojo/FoodSimInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="5" column="48" selection-start-line="5" selection-start-column="48" selection-end-line="5" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/foodweb/pojo/Recommend.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="760">
+          <caret line="59" column="21" selection-start-line="59" selection-start-column="21" selection-end-line="59" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/foodweb/pojo/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="855">
+          <caret line="45" column="18" selection-start-line="45" selection-start-column="18" selection-end-line="45" selection-end-column="18" />
+          <folding>
+            <element signature="e#260#261#0" expanded="true" />
+            <element signature="e#285#286#0" expanded="true" />
+            <element signature="e#318#319#0" expanded="true" />
+            <element signature="e#346#347#0" expanded="true" />
+            <element signature="e#380#381#0" expanded="true" />
+            <element signature="e#410#411#0" expanded="true" />
+            <element signature="e#456#457#0" expanded="true" />
+            <element signature="e#494#495#0" expanded="true" />
+            <element signature="e#530#531#0" expanded="true" />
+            <element signature="e#562#563#0" expanded="true" />
+            <element signature="e#612#613#0" expanded="true" />
+            <element signature="e#654#655#0" expanded="true" />
+            <element signature="e#694#695#0" expanded="true" />
+            <element signature="e#730#731#0" expanded="true" />
+            <element signature="e#788#789#0" expanded="true" />
+            <element signature="e#838#839#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/utils/FormatBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2261">
+          <caret line="127" column="46" selection-start-line="127" selection-start-column="46" selection-end-line="127" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/utils/MethodStringUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1102">
+          <caret line="58" column="40" selection-start-line="58" selection-start-column="40" selection-end-line="58" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/foodweb/pojo/MsgInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+          <folding>
+            <element signature="e#205#206#0" expanded="true" />
+            <element signature="e#235#236#0" expanded="true" />
+            <element signature="e#282#283#0" expanded="true" />
+            <element signature="e#320#321#0" expanded="true" />
+            <element signature="e#350#351#0" expanded="true" />
+            <element signature="e#376#377#0" expanded="true" />
+            <element signature="e#414#415#0" expanded="true" />
+            <element signature="e#444#445#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/classes/words.txt" />
+    <entry file="file://$PROJECT_DIR$/target/classes/com/foodweb/controller/FoodController.class" />
+    <entry file="file://$PROJECT_DIR$/target/classes/com/foodweb/controller/LoginController.class" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.5.2/mybatis-3.5.2.jar!/org/apache/ibatis/binding/MapperMethod.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="49">
+          <caret line="365" selection-start-line="365" selection-end-line="365" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/foodweb/pojo/UserRecord.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="24" column="40" selection-start-line="24" selection-start-column="40" selection-end-line="24" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#586#587#0" expanded="true" />
+            <element signature="e#648#649#0" expanded="true" />
+            <element signature="e#702#703#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/foodweb/listener/OnlineUserListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="24" column="29" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/foodweb/task/RecommendTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1045">
+          <caret line="74" selection-start-line="74" selection-end-line="74" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#recommendGeneal#0;class#RecommendTask#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/classes/onlineUser.txt" />
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="684">
+          <caret line="36" column="28" selection-start-line="36" selection-start-column="28" selection-end-line="36" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/foodweb/task/RecommendRunnable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="931">
+          <caret line="70" column="19" selection-start-line="70" selection-start-column="19" selection-end-line="70" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#524#525#0" expanded="true" />
+            <element signature="e#572#573#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/classes/mybatis.xml" />
+    <entry file="file://$PROJECT_DIR$/target/classes/com/foodweb/javabean/review/ReplyDetailBean.class" />
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="104" lean-forward="true" selection-start-line="104" selection-end-line="104" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext-redis.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/myapplication.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/classes/spring_mapper.xml" />
+    <entry file="jar://F:/java/jdk1.8/src.zip!/javax/management/Query.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="608">
+          <caret line="55" column="14" selection-start-line="55" selection-start-column="14" selection-end-line="55" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/foodweb/javabean/review/ReplyDetailBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="9" column="52" selection-start-line="9" selection-start-column="52" selection-end-line="9" selection-end-column="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/foodweb/javabean/review/CommentDetailBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="11" column="54" selection-start-line="11" selection-start-column="54" selection-end-line="11" selection-end-column="54" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/foodweb/javabean/review/CommentBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="34" column="23" selection-start-line="34" selection-start-column="23" selection-end-line="34" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/spring_mapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="25" column="59" selection-start-line="25" selection-start-column="59" selection-end-line="25" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="14" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/onlineUser.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/foodweb/pojo/FoodClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/classes/com/foodweb/pojo/FoodsAll.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="27" column="23" lean-forward="true" selection-start-line="27" selection-start-column="23" selection-end-line="27" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#3258#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/foodweb/pojo/FoodsAll.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="141" column="30" selection-start-line="141" selection-start-column="30" selection-end-line="141" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#655#656#0" expanded="true" />
+            <element signature="e#689#690#0" expanded="true" />
+            <element signature="e#741#742#0" expanded="true" />
+            <element signature="e#787#788#0" expanded="true" />
+            <element signature="e#1256#1257#0" expanded="true" />
+            <element signature="e#1288#1289#0" expanded="true" />
+            <element signature="e#1418#1419#0" expanded="true" />
+            <element signature="e#1452#1453#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/CalulateSimValue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="645" column="1" selection-start-line="645" selection-start-column="1" selection-end-line="645" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#randomTest#0;class#CalulateSimValue#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/foodweb/mapper/FoodsMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="105" selection-start-line="105" selection-end-line="105" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/com/foodweb/mapper/foodSql.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3477">
+          <caret line="183" selection-start-line="183" selection-end-line="183" />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/foodweb/pojo/Favarites.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="10" column="28" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#324#325#0" expanded="true" />
+            <element signature="e#349#350#0" expanded="true" />
+            <element signature="e#382#383#0" expanded="true" />
+            <element signature="e#410#411#0" expanded="true" />
+            <element signature="e#444#445#0" expanded="true" />
+            <element signature="e#474#475#0" expanded="true" />
+            <element signature="e#520#521#0" expanded="true" />
+            <element signature="e#558#559#0" expanded="true" />
+            <element signature="e#592#593#0" expanded="true" />
+            <element signature="e#622#623#0" expanded="true" />
+            <element signature="e#668#669#0" expanded="true" />
+            <element signature="e#706#707#0" expanded="true" />
+            <element signature="e#742#743#0" expanded="true" />
+            <element signature="e#776#777#0" expanded="true" />
+            <element signature="e#828#829#0" expanded="true" />
+            <element signature="e#874#875#0" expanded="true" />
+            <element signature="e#909#910#0" expanded="true" />
+            <element signature="e#940#941#0" expanded="true" />
+            <element signature="e#988#989#0" expanded="true" />
+            <element signature="e#1028#1029#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/foodweb/service/imp/NormalSearchImp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3002">
+          <caret line="248" selection-start-line="248" selection-end-line="248" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#searchByFoodId#0;class#NormalSearchImp#0" />
+            <element signature="method#searchByclass01#0;class#NormalSearchImp#0" />
+            <element signature="docComment;method#searchAllfidIngredients#0;class#NormalSearchImp#0" />
+            <element signature="method#searchAllfidIngredients#0;class#NormalSearchImp#0" />
+            <element signature="docComment;method#insertIntoRecommend#0;class#NormalSearchImp#0" />
+            <element signature="method#insertIntoRecommend#0;class#NormalSearchImp#0" />
+            <element signature="docComment;method#updateUserRecordStatus#0;class#NormalSearchImp#0" />
+            <element signature="method#updateUserRecordStatus#0;class#NormalSearchImp#0" />
+            <element signature="method#insertIntoUserRecords#0;class#NormalSearchImp#0" />
+            <element signature="docComment;method#register#0;class#NormalSearchImp#0" />
+            <element signature="method#register#0;class#NormalSearchImp#0" />
+            <element signature="docComment;method#login#0;class#NormalSearchImp#0" />
+            <element signature="method#findAllFoodClassInfo#0;class#NormalSearchImp#0" />
+            <element signature="method#searchFromRecommendTb#0;class#NormalSearchImp#0" />
+            <element signature="method#getRandomResult#0;class#NormalSearchImp#0" />
+            <element signature="method#getCommentsByFoodId#0;class#NormalSearchImp#0" />
+            <element signature="method#transferEmjoyCode#0;class#NormalSearchImp#0" />
+            <element signature="method#searchFavorites#0;class#NormalSearchImp#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/foodweb/javabean/Rows.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="25" column="42" selection-start-line="25" selection-start-column="42" selection-end-line="25" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#760#761#0" expanded="true" />
+            <element signature="e#792#793#0" expanded="true" />
+            <element signature="e#840#841#0" expanded="true" />
+            <element signature="e#882#883#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://F:/java/jdk1.8/jre/lib/rt.jar!/sun/reflect/NativeMethodAccessorImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/5.0.5.RELEASE/spring-aop-5.0.5.RELEASE.jar!/org/springframework/aop/support/AopUtils.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2945">
+          <caret line="189" selection-start-line="189" selection-end-line="189" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/foodweb/controller/FoodController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1862">
+          <caret line="177" column="19" selection-start-line="177" selection-start-column="19" selection-end-line="177" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#searchByname#0;class#FoodController#0" />
+            <element signature="docComment;method#searchBySmallClass#0;class#FoodController#0" />
+            <element signature="method#getFoodClassMenu#0;class#FoodController#0" />
+            <element signature="method#searchByNone#0;class#FoodController#0" />
+            <element signature="method#getOneFoodBean#0;class#FoodController#0" />
+            <element signature="docComment;method#getRecommendList#0;class#FoodController#0" />
+            <element signature="method#getRecommendList#0;class#FoodController#0" />
+            <element signature="method#getCommentsByFoodId#0;class#FoodController#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/foodweb/controller/LoginController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1197">
+          <caret line="76" column="7" selection-start-line="76" selection-start-column="7" selection-end-line="76" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/foodweb/service/NormalSearch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2109">
+          <caret line="120" column="61" selection-start-line="120" selection-start-column="61" selection-end-line="120" selection-end-column="61" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>foodapp-web:war exploded</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.37488544" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring (foodredis)|Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.37488544" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.37488544" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.37488544" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring|foodredis</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.37488544" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: aopalliance:aopalliance:1.0</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.37488544" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
