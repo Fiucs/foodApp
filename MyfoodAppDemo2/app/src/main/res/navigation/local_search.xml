@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/local_search"
+    app:startDestination="@id/typeListFragment2">
+    <fragment
+        android:id="@+id/typeListFragment2"
+        android:name="com.lee.content_fragment.ui.Type.TypeListFragment"
+        android:label="搜索"
+        tools:layout="@layout/type_list_fragment" >
+        <action
+            android:id="@+id/action_typeListFragment2_to_local_search"
+            app:popUpTo="@id/local_search" />
+    </fragment>
+</navigation>

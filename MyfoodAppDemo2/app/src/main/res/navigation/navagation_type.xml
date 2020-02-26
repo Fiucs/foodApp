@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navagation_type"
+    app:startDestination="@id/type_menu_fragment">
+    <fragment
+        android:id="@+id/type_menu_fragment"
+        android:name="com.lee.content_fragment.ui.Type.typeMenuFragment"
+        android:label="分类"
+        tools:layout="@layout/type_menu_fragment">
+        <action
+            android:id="@+id/action_type_menu_fragment_pop"
+            app:popUpTo="@+id/type_menu_fragment"
+            app:popUpToInclusive="true" />
+        <action
+            android:id="@+id/action_type_menu_fragment_to_typeListFragment"
+            app:destination="@id/typeListFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/typeListFragment"
+        android:name="com.lee.content_fragment.ui.Type.TypeListFragment"
+        android:label="分类列表"
+        tools:layout="@layout/type_list_fragment">
+        <action
+            android:id="@+id/action_typeListFragment_to_type_menu_fragment"
+            app:destination="@id/type_menu_fragment"
+            app:popUpTo="@+id/type_menu_fragment" />
+    </fragment>
+</navigation>

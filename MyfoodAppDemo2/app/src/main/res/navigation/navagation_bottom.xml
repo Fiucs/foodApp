@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navagation_bottom"
+    app:startDestination="@id/homepageFragment">
+    <fragment
+        android:id="@+id/collectionFragment"
+        android:name="com.lee.bottom_nav_fragment.Collection_bottom"
+        android:label="收藏"
+        tools:layout="@layout/collection_bottom_fragment" />
+    <fragment
+        android:id="@+id/homepageFragment"
+        android:name="com.lee.bottom_nav_fragment.Home_bottom"
+        android:label="首页"
+        tools:layout="@layout/home_bottom_fragment" >
+        <action
+            android:id="@+id/action_homepageFragment_to_content01Fragment"
+            app:destination="@id/content01Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/mIneFragment"
+        android:name="com.lee.bottom_nav_fragment.Mine_bottom"
+        android:label="我的"
+        tools:layout="@layout/mine_bottom_fragment" >
+        <action
+            android:id="@+id/action_mIneFragment_to_mine_logineddFragment"
+            app:destination="@id/mine_logineddFragment"
+            app:popUpTo="@+id/homepageFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/typingFragment"
+        android:name="com.lee.bottom_nav_fragment.Type_bottom"
+        android:label="分类"
+        tools:layout="@layout/type_bottom_fragment" >
+        <action
+            android:id="@+id/action_typingFragment_to_homepageFragment"
+            app:destination="@id/homepageFragment"
+            app:popUpTo="@+id/typingFragment"
+
+            />
+    </fragment>
+    <fragment
+        android:id="@+id/content01Fragment"
+        android:name="com.lee.content_fragment.ui.content01.Content01Fragment"
+        android:label="content01_fragment"
+        tools:layout="@layout/content01_fragment" >
+        <action
+            android:id="@+id/action_content01Fragment_to_homepageFragment"
+            app:destination="@id/homepageFragment"
+            app:popUpTo="@+id/navagation_bottom" />
+    </fragment>
+    <fragment
+        android:id="@+id/mine_logineddFragment"
+        android:name="com.lee.content_fragment.ui.loginregister.ui.logged.mine_logineddFragment"
+        android:label="我的"
+        tools:layout="@layout/mine_loginedd_fragment" />
+    <fragment
+        android:id="@+id/pageview_Home"
+        android:name="com.lee.pageview_fragment.Pageview_Home"
+        android:label="pageview__home_fragment"
+        tools:layout="@layout/pageview__home_fragment" />
+    <fragment
+        android:id="@+id/pageview_Recommend"
+        android:name="com.lee.pageview_fragment.Pageview_Recommend"
+        android:label="Pageview_Recommend" >
+        <action
+            android:id="@+id/action_pageview_Recommend_to_mIneFragment"
+            app:destination="@id/mIneFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/loginrRecFragment"
+        android:name="com.lee.content_fragment.ui.loginfragment.LoginrRecFragment"
+        android:label="loginr_rec_fragment"
+        tools:layout="@layout/loginr_rec_fragment" >
+        <action
+            android:id="@+id/action_loginrRecFragment_to_pageview_Home"
+            app:destination="@id/pageview_Home"
+            app:popUpTo="@+id/navagation_bottom" />
+    </fragment>
+    <fragment
+        android:id="@+id/onlieSearch_Fragment"
+        android:name="com.lee.pageview_fragment.OnlieSearch_Fragment"
+        android:label="onlie_search__fragment"
+        tools:layout="@layout/onlie_search__fragment" />
+    <fragment
+        android:id="@+id/searchPageFragment"
+        android:name="com.lee.pageview_fragment.SearchPageFragment"
+        android:label="search_page_fragment"
+        tools:layout="@layout/search_page_fragment" >
+        <action
+            android:id="@+id/action_searchPageFragment_to_onlieSearch_Fragment"
+            app:destination="@id/onlieSearch_Fragment"
+            app:popUpTo="@+id/pageview_Home" />
+    </fragment>
+</navigation>
