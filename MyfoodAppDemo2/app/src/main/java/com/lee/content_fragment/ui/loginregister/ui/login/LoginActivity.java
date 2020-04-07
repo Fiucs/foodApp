@@ -108,7 +108,7 @@ public class LoginActivity extends AppCompatActivity {
                     try {
                         //用户名 是加密要是
                         String desPassword = DES.getDES(password.getText().toString(), username.getText().toString());//密码加密
-                        SharedPreferences account = getSharedPreferences("account", Context.MODE_WORLD_WRITEABLE | Context.MODE_MULTI_PROCESS );
+                        SharedPreferences account = getSharedPreferences("account", Context.MODE_PRIVATE | Context.MODE_MULTI_PROCESS );
                         SharedPreferences.Editor edit = account.edit();
                         edit.putString("username", LoginActivity.this.username.getText().toString());
                         edit.putString("password",desPassword );

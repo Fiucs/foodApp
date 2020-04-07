@@ -15,6 +15,9 @@ import com.lee.myviewmodel.BaseDataModel;
 import com.lee.repository.javabean.MsgInfo;
 import com.lee.utils.DES;
 
+import java.io.InputStream;
+import java.util.Properties;
+
 import androidx.appcompat.app.AppCompatActivity;
 
 public class SplashActivity extends AppCompatActivity {
@@ -31,7 +34,7 @@ public class SplashActivity extends AppCompatActivity {
             public void run() {
                 try {
 
-                    SharedPreferences account =getSharedPreferences("account", Context.MODE_WORLD_WRITEABLE | Context.MODE_MULTI_PROCESS);
+                    SharedPreferences account =getSharedPreferences("account", Context.MODE_PRIVATE| Context.MODE_MULTI_PROCESS);
                     SharedPreferences.Editor edit = account.edit();//编辑器
                     String password = account.getString("password","_null");//s1为返回值密码
                     String username = account.getString("username", "_null");
@@ -41,6 +44,14 @@ public class SplashActivity extends AppCompatActivity {
                     String id = androidID + Build.SERIAL;
                     Log.e("设备ID:",id);
                     BaseDataModel.setDeviceId(id);//设置设备号
+
+                    //获取基本地址
+                    InputStream inputStream = getResources().getAssets().open("baseUrl.properties");
+                    Properties pro = new Properties();
+                    pro.load(inputStream);
+                    String baseUrl = pro.getProperty("localBaseUrl");
+                    BaseDataModel.setBaseUrl(baseUrl);
+                    Log.e("基本地址:",baseUrl);
 
                     if(!password.equals("_null"))//则登录E/设备ID:: 9e26a499477c7b6de60b4ce
                     {

@@ -41,7 +41,7 @@ public class Mine_bottom extends Fragment {
                              @Nullable Bundle savedInstanceState) {
         View view=inflater.inflate(R.layout.mine_bottom_fragment, container, false);
 
-        SharedPreferences account =getActivity().getSharedPreferences("account", Context.MODE_WORLD_WRITEABLE | Context.MODE_MULTI_PROCESS);
+        SharedPreferences account =getActivity().getSharedPreferences("account", Context.MODE_PRIVATE | Context.MODE_MULTI_PROCESS);
 
         String password = account.getString("password","_null");//s1为返回值密码
 

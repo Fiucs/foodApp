@@ -14,7 +14,7 @@ public class FoodOneThread implements Runnable {
     private String foodId;
     private boolean flag=true;//默认有网络
 //    private String URL="http://192.168.43.64:8081/app/getOneFoodBean";
-    private String URL="http://192.168.1.7:8081/app/getOneFoodBean";
+    private String URL="/app/getOneFoodBean";
     private static ObjectMapper mapper = new ObjectMapper();
     private static FoodsBean foodsBean;
     public FoodOneThread(String foodId)
@@ -32,7 +32,7 @@ public class FoodOneThread implements Runnable {
     public void run() {
 
         Response response;
-
+        URL=BaseDataModel.getBaseUrl()+"/app/getOneFoodBean";
             try {
                 response = OkHttpUtils
                         .post()

@@ -102,7 +102,7 @@ public class Content01Fragment extends Fragment {
 
     public String getUsername()
     {
-        SharedPreferences account = getActivity().getSharedPreferences("account", Context.MODE_WORLD_WRITEABLE | Context.MODE_MULTI_PROCESS );
+        SharedPreferences account = getActivity().getSharedPreferences("account", Context.MODE_PRIVATE | Context.MODE_MULTI_PROCESS );
         String username = account.getString("username", "_null");
 
         return username;
@@ -521,7 +521,7 @@ public class Content01Fragment extends Fragment {
 //                    beans.add(replyDetailBean3);
 //                    detailBean.setReplyList(beans);
 //                    此处调用viewModel进行获取数据
-                    SharedPreferences account = getActivity().getSharedPreferences("account", Context.MODE_WORLD_WRITEABLE | Context.MODE_MULTI_PROCESS );
+                    SharedPreferences account = getActivity().getSharedPreferences("account", Context.MODE_PRIVATE | Context.MODE_MULTI_PROCESS );
                     //获取用户名
                     userName = account.getString("username", BaseDataModel.getDeviceId());//设备号
                     Log.e("username",userName);
@@ -600,7 +600,7 @@ public class Content01Fragment extends Fragment {
                     dialog.dismiss();
 //                    ReplyDetailBean detailBean = new ReplyDetailBean("小红",replyContent);
                     /////////////////
-                    SharedPreferences account = getActivity().getSharedPreferences("account", Context.MODE_WORLD_WRITEABLE | Context.MODE_MULTI_PROCESS );
+                    SharedPreferences account = getActivity().getSharedPreferences("account", Context.MODE_PRIVATE | Context.MODE_MULTI_PROCESS );
                     //获取用户名
                     userName = account.getString("username", BaseDataModel.getDeviceId());
                     ReplyDetailBean replyDetailBean = new ReplyDetailBean();

@@ -21,11 +21,12 @@ public class CommentsRepository {
     private static int pageSize = 3;//当前页大小
     CommentBean commentBean;
     GetComments getComments;
-    private String baseUrl="http://192.168.1.7:8081";
+//    private String baseUrl="http://192.168.1.7:8081";
+    private String baseUrl="";
 
 
     public CommentsRepository() {
-
+        baseUrl=BaseDataModel.getBaseUrl();
         pageSize = 3;
     }
 

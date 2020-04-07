@@ -49,6 +49,7 @@ public class mine_logineddFragment extends Fragment {
         {
             String uname="用户名："+arguments.getString("username");
             String userId="ID："+arguments.getString("usernameId");
+            userId=userId.substring(0,28)+"\n"+userId.substring(28);
             textViewUsername.setText(uname);
             textViewUserID.setText(userId);
         }

@@ -36,6 +36,16 @@ public class BaseDataModel {
 
     private static String deviceId;//设备号
 
+    private static String baseUrl;//基本地址
+
+    public static String getBaseUrl() {
+        return baseUrl;
+    }
+
+    public static void setBaseUrl(String baseUrl) {
+        BaseDataModel.baseUrl = baseUrl;
+    }
+
     public static void setDeviceId(String deviceId) {
         BaseDataModel.deviceId = deviceId;
     }
@@ -162,7 +172,7 @@ public  interface NetWorkChekProvider{
     {
 
         try {
-            String URL = "http://192.168.1.7:8081/";
+            String URL = BaseDataModel.getBaseUrl();
             Response response = OkHttpUtils
                     .post()
                     .url(URL)

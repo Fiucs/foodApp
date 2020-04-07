@@ -55,7 +55,7 @@ public class Pageview_Recommend extends Fragment {
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container,
                              @Nullable Bundle savedInstanceState) {
-        SharedPreferences account = getActivity().getSharedPreferences("account", Context.MODE_WORLD_WRITEABLE | Context.MODE_MULTI_PROCESS );
+        SharedPreferences account = getActivity().getSharedPreferences("account", Context.MODE_PRIVATE | Context.MODE_MULTI_PROCESS );
         String password = account.getString("password", "_null");
 
 
@@ -78,11 +78,11 @@ public class Pageview_Recommend extends Fragment {
         //绑定数据
         Fragment fragment = getParentFragment();//获取父fragment
 
-        if(myviewModel01==null)
-        {
+//        if(myviewModel01==null)
+//        {
             myviewModel01= ViewModelProviders.of(this).get(MyviewModel01.class);
-            System.out.println("11111111111111111111111111111");
-        }
+//            System.out.println("11111111111111111111111111111");
+//        }
 
         myviewModel01.setAppUri("/app/getRecommendList");
         myviewModel01.setTransflag(0);
@@ -177,10 +177,10 @@ public class Pageview_Recommend extends Fragment {
     public void onActivityCreated(@Nullable Bundle savedInstanceState) {
         super.onActivityCreated(savedInstanceState);
         if(myviewModel01==null)
-        {
+        {}
             myviewModel01= ViewModelProviders.of(this).get(MyviewModel01.class);
             System.out.println("11111111111111111111111111111");
-        }
+
 
         // TODO: Use the ViewModel
     }

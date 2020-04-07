@@ -4,6 +4,7 @@ import android.os.AsyncTask;
 import android.util.Log;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
+import com.lee.myviewmodel.BaseDataModel;
 import com.lee.repository.javabean.MsgInfo;
 import com.zhy.http.okhttp.OkHttpUtils;
 
@@ -57,7 +58,8 @@ public class OtherRepository {
 
         objectMapper=new ObjectMapper();
         try {
-            String URL="http://192.168.1.7:8081";
+//            String URL="http://192.168.1.7:8081";
+            String URL= BaseDataModel.getBaseUrl();
             URL+=url;
             Response response = OkHttpUtils
                     .post()

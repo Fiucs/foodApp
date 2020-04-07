@@ -27,7 +27,8 @@ public class MyviewModel01 extends AndroidViewModel {
 //    手机wifi
 //    private String URL="http://192.168.43.64:8081/app/searchBySystemKey";
     //家中wifi
-    private String BaseURL="http://192.168.1.7:8081";
+//    private String BaseURL="http://192.168.1.7:8081";
+    private String BaseURL="";
     private String URL;
     //每页需要加载的数量
     private  static  final  int PAGE_SIZE=3;
@@ -60,6 +61,7 @@ public class MyviewModel01 extends AndroidViewModel {
     private int transflag;
 
     public void setAppUri(String appUri) {
+        BaseURL=BaseDataModel.getBaseUrl();
         this.appUri = appUri;
         URL=BaseURL+appUri;
     }

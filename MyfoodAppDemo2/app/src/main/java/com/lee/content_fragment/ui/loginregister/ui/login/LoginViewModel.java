@@ -4,6 +4,7 @@ import android.app.Application;
 import android.os.AsyncTask;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
+import com.lee.myviewmodel.BaseDataModel;
 import com.lee.repository.javabean.MsgInfo;
 import com.zhy.http.okhttp.OkHttpUtils;
 
@@ -76,7 +77,8 @@ public class LoginViewModel extends AndroidViewModel {
     {
         try {
 //            String URL = "http://192.168.1.7:8081/login";
-            String URL = "http://192.168.1.7:8081"+strings[2];
+//            String URL = "http://192.168.1.7:8081"+strings[2];
+            String URL = BaseDataModel.getBaseUrl() +strings[2];
             Response response = OkHttpUtils
                     .post()
                     .url(URL)

@@ -66,7 +66,7 @@ public class Pageview_Home extends Fragment {
             Fragment fragment = getParentFragment();//获取父fragment
 
 
-        myviewModel01 = ViewModelProviders.of(this).get(MyviewModel01.class);
+            myviewModel01 = ViewModelProviders.of(this).get(MyviewModel01.class);
                 System.out.println("11111111111111111111111111111");
 
 
@@ -175,11 +175,11 @@ public class Pageview_Home extends Fragment {
     public void onActivityCreated(@Nullable Bundle savedInstanceState) {
         super.onActivityCreated(savedInstanceState);
         View view1;
-        if(myviewModel01==null)
-        {
+//        if(myviewModel01==null)
+//        {}
             myviewModel01= ViewModelProviders.of(this).get(MyviewModel01.class);
-            System.out.println("11111111111111111111111111111");
-        }
+            System.out.println("1-------------------------------------s");
+
 
 
 

@@ -46,7 +46,7 @@ public class Home_bottom extends Fragment {
         TabLayout tabLayout=inflate.findViewById(R.id.tabLayout);
         ViewPager2 viewPager2=inflate.findViewById(R.id.viewpager3);
 
-        SharedPreferences account = getActivity().getSharedPreferences("account", Context.MODE_WORLD_WRITEABLE | Context.MODE_MULTI_PROCESS );
+        SharedPreferences account = getActivity().getSharedPreferences("account", Context.MODE_PRIVATE | Context.MODE_MULTI_PROCESS );
         String password = account.getString("password", "_null");
         System.out.println("home_buttom+password："+password);
             fragments = new ArrayList<>();

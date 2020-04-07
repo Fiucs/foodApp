@@ -55,7 +55,7 @@ public class FavirateAndHistoryActivity extends AppCompatActivity {
         getSupportActionBar().setHomeButtonEnabled(true); //设置返回键可用
 
 
-        SharedPreferences account = getSharedPreferences("account", Context.MODE_WORLD_WRITEABLE | Context.MODE_MULTI_PROCESS );
+        SharedPreferences account = getSharedPreferences("account", Context.MODE_PRIVATE | Context.MODE_MULTI_PROCESS );
         String password = account.getString("password", "_null");
         System.out.println("home_buttom+password："+password);
 

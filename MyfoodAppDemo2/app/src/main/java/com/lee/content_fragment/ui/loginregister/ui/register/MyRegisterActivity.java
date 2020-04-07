@@ -121,7 +121,7 @@ public class MyRegisterActivity extends AppCompatActivity {
                     } catch (Exception e) {
                         e.printStackTrace();
                     }
-                    SharedPreferences account = getSharedPreferences("account", Context.MODE_WORLD_WRITEABLE | Context.MODE_MULTI_PROCESS );
+                    SharedPreferences account = getSharedPreferences("account", Context.MODE_PRIVATE | Context.MODE_MULTI_PROCESS );
                     SharedPreferences.Editor edit = account.edit();
                     edit.putString("username",username);
                     edit.putString("password",desPassword );//加密密码
