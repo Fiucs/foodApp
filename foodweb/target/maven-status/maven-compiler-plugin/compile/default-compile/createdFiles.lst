@@ -8,6 +8,7 @@ com\foodweb\task\RecommendRunnable.class
 com\utils\CalculateSimValues$1.class
 com\foodweb\pojo\MsgInfo.class
 com\foodweb\javabean\review\ReplyDetailBean.class
+com\foodweb\pojo\Favarites.class
 com\foodweb\controller\LoginController.class
 com\foodweb\mapper\FoodsMapper.class
 com\foodweb\javabean\review\CommentBean$Data.class

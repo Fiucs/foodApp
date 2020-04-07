@@ -163,6 +163,12 @@ public class FoodController {
 
     }
 
+    /**
+     * 跟新评论
+     * @param request
+     * @param replyDetailBean
+     * @return
+     */
     @RequestMapping("/updateReplys")
     public MsgInfo updateComments (HttpServletRequest request ,ReplyDetailBean replyDetailBean)
     {
@@ -171,6 +177,12 @@ public class FoodController {
         return msgInfo;
     }
 
+    /**
+     * 跟新回复
+     * @param request
+     * @param commentDetailBean
+     * @return
+     */
     @RequestMapping("/updateComments")
     public MsgInfo updateComments(HttpServletRequest request, CommentDetailBean commentDetailBean)
     {

@@ -56,6 +56,7 @@ public class LoginController {
 
         ServletContext application = session.getServletContext();
 
+
         MsgInfo msgInfo = normalSearch.login(userName, password);
         if(msgInfo.isSuccess())
         {
@@ -64,10 +65,11 @@ public class LoginController {
 
             System.out.println("login:userid"+msgInfo.getMsg());
             //注意将用户id加入名单而不是用户名
-
+            System.out.println(application);
             List<String> onlineUserList = (List<String>) application.getAttribute("onlineUserList");
-
+            System.out.println("onlineuserlist:"+onlineUserList);
             List<String> listName = readAllOnlineInfo();
+            System.out.println("listName:"+listName);
             if(!onlineUserList.contains(msgInfo.getMsg()) && !listName.contains(msgInfo.getMsg()) )
             {
                 onlineUserList.add(msgInfo.getMsg());//从app中添加 长登录的用户

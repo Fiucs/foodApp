@@ -66,6 +66,7 @@ public class NormalSearchImp implements NormalSearch {
         List<FoodsAll> foodsAllList = res.getResult();
         List<FoodsAll> result = FormatBean.forMatListBean(request, url, uri, foodsAllList);
 
+
         return result==null?new Rows():new Rows(res.getTotal(),res.getPageNum(),res.getPages(),result);
     }
 
@@ -219,7 +220,7 @@ public class NormalSearchImp implements NormalSearch {
             String uuid = UUID.randomUUID().toString().trim().replace("-","");
 
             int i = foodsMapper.insertIntoUser(uuid, userName, userPassword);
-            return i>0?new MsgInfo(true,"注册成功"):new MsgInfo(false,"注册发生错误");
+            return i>0?new MsgInfo(true,uuid):new MsgInfo(false,"注册发生错误");
 
         }
         else
