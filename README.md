@@ -1,1 +1,3 @@
-# foodApp
+＃foodApp
+MyfoodwebAppDemo为安卓端
+foodWeb为java服务器端
